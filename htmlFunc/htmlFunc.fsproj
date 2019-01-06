@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DomModelling.fs" />
+    <Compile Include="DomNodeService.fs" />
+    <Compile Include="testStuff.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
