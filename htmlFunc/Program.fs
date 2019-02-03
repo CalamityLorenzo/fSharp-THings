@@ -17,5 +17,5 @@ let main argv =
     let charsInCharge = Seq.toList "This is the string"
     let Junk = ForwardParser.create basicHtml
     
-    Parser.TraverseParser Junk
+    Parser.RecursiveTraversal Junk
     0 // return an integer exit code
