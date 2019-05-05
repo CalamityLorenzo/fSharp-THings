@@ -36,6 +36,7 @@ type PersonName = {
     Last:string 
 }
 
+module processor =
 // deconstruct as parameter
-let getCardNo (CardNumber num) =
-    printfn "%s number" num
+    let getCardNo (CardNumber num) =
+        printfn "%s number" num
